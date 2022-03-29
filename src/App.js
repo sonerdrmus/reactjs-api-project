@@ -20,12 +20,12 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
-        {/* public sayfalar */}
+        {/* public pages */}
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="unauthorized" element={<Unauthorized />} />
        
-        {/* Giriş yapıldıysa yönlendirilecek sayfalar */}
+        {/* Login success */}
         <Route element={<RequireAuth allowedRoles={[ROLES.Success]} />}>
           <Route path="/" element={<Home />} />
           <Route path='/kamionAdd' element={<KamionAdd />} />
