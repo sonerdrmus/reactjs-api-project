@@ -11,7 +11,7 @@ const KamionEdit = () => {
 
     const { id } = useParams();
 
-    const KAMION_EDIT = '/api/shipper/update-carrier/'+id;
+    const KAMION_EDIT = 'apiurl'+id;
 
     const userRef = useRef();
     const errRef = useRef();
