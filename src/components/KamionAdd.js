@@ -41,7 +41,7 @@ const KamionAdd = () => {
 
             const response = await axios({
                 method: "post",
-                url: "https://kamion-interview.herokuapp.com/api/shipper/carrier",
+                url: "apiurl",
                 data: formData,
                 headers: { 
                     "Content-Type": "multipart/form-data",
