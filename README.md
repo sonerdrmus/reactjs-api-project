@@ -3,6 +3,6 @@ React.js API Request GET-POST and ReactDom-Pagination-SearchBar-Bootstrap
 
 npm install 
 
-<b>api/axios.js<b> file edti "apiurl"
+<b>api/axios.js<b> file edit "apiurl"
 
 npm start
